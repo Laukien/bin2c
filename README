@@ -1,0 +1,7 @@
+Converts a binary file to a C char-array.
+
+#bin2c input.exe output.c
+Bind the generated C-file like always.
+#gcc main.c output.c
+To get access from the C-code bind the array as follow:
+>extern char input_exe[];
