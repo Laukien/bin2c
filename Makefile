@@ -4,5 +4,5 @@ CFLAGS += -Wall
 
 all:
 	mkdir -p bin
-	$(CC) $(CFLAGS) -o bin/bin2c src/bin2c.c
+	$(CC) $(CFLAGS) -o bin/bin2c src/main.c
 	strip bin/bin2c
